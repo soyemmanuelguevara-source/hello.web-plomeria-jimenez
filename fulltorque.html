@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Jiménez e Hijos | Plomería y Desazolve 24 Horas</title>
+  <meta name="description" content="A Jiménez e Hijos ofrece plomería, desazolve, destape de drenajes, bombas de agua, calentadores solares, tuberías, muebles de baño y reparación de fugas. Servicio urgente 24 horas por WhatsApp.">
+  <meta name="keywords" content="plomería 24 horas, desazolve, destape de drenajes, plomero urgente, bombas de agua, calentadores solares, reparación de fugas, A Jiménez e Hijos">
+  <meta property="og:title" content="A Jiménez e Hijos | Plomería y Desazolve">
+  <meta property="og:description" content="Servicio profesional de plomería y desazolve 24 horas. Atención personalizada, equipo electrónico y calidad 100% garantizada.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/photos/bomba-presurizadora.webp">
+  <link rel="icon" type="image/png" href="assets/logo-plomero-alpha.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-panel">
+    <div class="ld-logo">
+      <img src="assets/logo-plomero-alpha.png" alt="" class="ld-logo-img">
+      <div class="ld-ring"></div>
+    </div>
+    <div class="ld-brand">
+      <p class="ld-name">A Jiménez <em>e Hijos</em></p>
+      <p class="ld-tag">Plomería y Desazolve</p>
+    </div>
+    <div class="ld-progress">
+      <div class="ld-track"><div class="ld-fill"></div></div>
+      <p class="ld-note">Cargando</p>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#" class="logo" aria-label="A Jiménez e Hijos">
+      <img src="assets/logo-plomero-alpha.png" alt="A Jiménez e Hijos" class="logo-img">
+      <div class="logo-word">A Jiménez <em>e Hijos</em></div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#inventario">Trabajos</a></li>
+      <li><a href="#why">Ventajas</a></li>
+      <li><a href="#contact" class="nav-cta">WhatsApp 24 h</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#services">Servicios</a>
+  <a href="#inventario">Trabajos</a>
+  <a href="#why">Ventajas</a>
+  <a href="#contact">WhatsApp 24 h</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow">Servicio urgente de plomería y desazolve 24 horas</p>
+      <h1 class="hero-h1">
+        <span class="h1-line"><span class="h1-inner">Soluciones de</span></span>
+        <span class="h1-line"><span class="h1-inner">Plomería Urgente</span></span>
+        <span class="h1-line"><span class="h1-inner">Rápidas y Limpias</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner">100% Garantizadas</span></span>
+      </h1>
+      <p class="hero-typewriter" aria-label="Servicios principales">
+        <span class="tw-label">Resolvemos:</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p">
+        Plomería en general, desazolve, reparación de fugas, bombas de agua, calentadores solares y renovación de baños con atención profesional a domicilio.
+      </p>
+      <div class="hero-btns">
+        <a href="https://wa.me/525541935978?text=Hola%2C%20necesito%20un%20servicio%20de%20plomer%C3%ADa%20o%20desazolve.%20%C2%BFMe%20pueden%20apoyar%3F" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Solicitar servicio
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#services" class="btn-secondary">Ver servicios</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Datos de confianza">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="24" data-prefix="" data-suffix=" h">0 h</span>
+          <span class="stat-lbl">Urgencias</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="100" data-prefix="" data-suffix="%">0%</span>
+          <span class="stat-lbl">Garantizado</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="9" data-prefix="+" data-suffix="">+0</span>
+          <span class="stat-lbl">Servicios clave</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">A domicilio</span>
+          <span class="stat-lbl">Hogar, comercio e industria</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Tecnología que resuelve sin romper de más</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Servicios destacados">
+  <div class="trust-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Atención especializada</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Desazolve</span>
+        <span class="trust-chip">Fugas</span>
+        <span class="trust-chip">Bombas de agua</span>
+        <span class="trust-chip">Calentadores solares</span>
+        <span class="trust-chip">Tubería cobre y PVC</span>
+        <span class="trust-chip">Baños y muebles</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img src="assets/photos/renovacion-tina.webp" alt="Renovación de tina realizada por A Jiménez e Hijos" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">24 h</p>
+          <p class="a-lbl">Trabajos urgentes</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading heading--shine">Plomería Profesional con Atención Directa</h2>
+        <p>A Jiménez e Hijos atiende servicios de plomería y desazolve con trato personalizado, respuesta rápida y trabajo profesional para casa, comercio e industria.</p>
+        <p>Su enfoque combina experiencia en campo con equipo electrónico para detectar fallas con precisión, resolver fugas, destapar drenajes e instalar sistemas hidráulicos sin dañar más de lo necesario.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="24" data-prefix="" data-suffix=" h"></p>
+            <p class="a-stat-l">Servicio urgente</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="100" data-prefix="" data-suffix="%"></p>
+            <p class="a-stat-l">Calidad garantizada</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="9" data-prefix="+" data-suffix=""></p>
+            <p class="a-stat-l">Áreas de servicio</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">1</p>
+            <p class="a-stat-l">WhatsApp directo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Servicios</p>
+      <h2 class="heading heading--shine">Soluciones Hidráulicas para Cada Urgencia</h2>
+      <p class="sub">Servicios claros, atención a domicilio y evidencia real de trabajos en campo.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card rev d1">
+        <div class="svc-photo"><img src="assets/photos/destape-fregadero.webp" alt="Destape de fregadero realizado por A Jiménez e Hijos" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">01</span>
+        <h3>Desazolve y Destape</h3>
+        <p>Drenajes, coladeras y fregaderos atendidos con limpieza cuidadosa para recuperar el flujo y evitar daños mayores.</p>
+      </div>
+
+      <div class="svc-card rev d2">
+        <div class="svc-photo"><img src="assets/photos/registro-limpieza.webp" alt="Registro intervenido para limpieza y diagnóstico de desazolve" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">02</span>
+        <h3>Limpieza con Equipo Electrónico</h3>
+        <p>Video-inspección y detección precisa de fallas para ubicar el problema antes de romper o intervenir.</p>
+      </div>
+
+      <div class="svc-card rev d3">
+        <div class="svc-photo"><img src="assets/photos/bomba-presurizadora.webp" alt="Instalación de bomba de agua por A Jiménez e Hijos" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">03</span>
+        <h3>Bombas de Agua</h3>
+        <p>Instalación y mantenimiento de bombas sumergibles, autocebantes y periféricas para hogar, comercio e industria.</p>
+      </div>
+
+      <div class="svc-card rev d4">
+        <div class="svc-photo"><img src="assets/photos/calentador-solar.webp" alt="Calentador solar de agua instalado en azotea" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">04</span>
+        <h3>Calentadores Solares</h3>
+        <p>Instalación de calentadores solares de agua para mejorar el suministro y aprovechar mejor la energía.</p>
+      </div>
+
+      <div class="svc-card rev d5">
+        <div class="svc-photo"><img src="assets/photos/tuberia-cobre-pvc.webp" alt="Instalación y reparación de tubería de cobre y PVC" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">05</span>
+        <h3>Tuberías, Conexiones y Soldadura</h3>
+        <p>Instalación de tubería de cobre y PVC, conexiones, soldadura y reparación de líneas hidráulicas.</p>
+      </div>
+
+      <div class="svc-card rev d6">
+        <div class="svc-photo"><img src="assets/photos/muebles-bano.webp" alt="Muebles de baño y lavabo disponibles para instalación" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">06</span>
+        <h3>Baños, WC y Lavabos</h3>
+        <p>Instalación y venta de muebles de baño, WC, lavabos, espejos, renovación de baños y tinas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INVENTARIO -->
+<section id="inventario" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header rev">
+      <div>
+        <p class="eyebrow">Trabajos reales</p>
+        <h2 class="heading heading--shine">Evidencia de Servicio en Campo</h2>
+      </div>
+      <a href="#contact" class="btn-outline">Cotizar trabajo</a>
+    </div>
+    <div class="prod-grid">
+      <div class="prod-card rev d1">
+        <div class="prod-photo"><img src="assets/photos/instalacion-wc.webp" alt="Instalación de WC realizada a domicilio" loading="lazy"></div>
+        <h3>Instalación de WC</h3>
+        <p>Colocación y conexión de sanitario con revisión de sellos, descarga y alimentación.</p>
+        <a class="prod-pill" href="https://wa.me/525541935978?text=Hola%2C%20quiero%20cotizar%20instalaci%C3%B3n%20o%20venta%20de%20WC%20y%20muebles%20de%20ba%C3%B1o." target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="prod-photo"><img src="assets/photos/tuberia-drenaje.webp" alt="Trabajo en tubería de drenaje con conexiones instaladas" loading="lazy"></div>
+        <h3>Tubería de Drenaje</h3>
+        <p>Corrección de conexiones y líneas de drenaje para evitar retornos, filtraciones y malos olores.</p>
+        <a class="prod-pill" href="https://wa.me/525541935978?text=Hola%2C%20necesito%20revisar%20una%20tuber%C3%ADa%20o%20drenaje." target="_blank" rel="noopener noreferrer">Pedir revisión</a>
+      </div>
+
+      <div class="prod-card rev d3">
+        <div class="prod-photo"><img src="assets/photos/reparacion-fuga.webp" alt="Reparación de fuga con intervención en muro" loading="lazy"></div>
+        <h3>Reparación de Fugas</h3>
+        <p>Ubicación de fuga, intervención en muro, reparación de línea y resane del área trabajada.</p>
+        <a class="prod-pill" href="https://wa.me/525541935978?text=Hola%2C%20tengo%20una%20fuga%20y%20necesito%20servicio%20a%20domicilio." target="_blank" rel="noopener noreferrer">Reportar fuga</a>
+      </div>
+
+      <div class="prod-card rev d4">
+        <div class="prod-photo"><img src="assets/photos/regadera-terminada.webp" alt="Regadera terminada después de servicio de plomería" loading="lazy"></div>
+        <h3>Regadera Terminada</h3>
+        <p>Instalación y revisión de salida de agua para dejar el baño funcional y listo para uso diario.</p>
+        <a class="prod-pill" href="https://wa.me/525541935978?text=Hola%2C%20quiero%20cotizar%20servicio%20para%20regadera%20o%20ba%C3%B1o." target="_blank" rel="noopener noreferrer">Solicitar servicio</a>
+      </div>
+    </div>
+    <p class="prod-note rev">Todas las imágenes usadas en esta sección provienen de la carpeta de trabajos reales del cliente.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section bg-navy">
+  <div class="why-bg" aria-hidden="true"></div>
+  <canvas id="pcanvasWhy" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img src="assets/photos/registro-limpieza.webp" alt="Limpieza de registro y desazolve por A Jiménez e Hijos" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">100%</p>
+          <p class="wib-l">Garantizado</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+        <h2 class="heading heading--white heading--shine-dark">Servicio Técnico con Criterio Profesional</h2>
+        <p class="sub sub--white">Cuatro razones claras para llamar cuando necesitas resolverlo bien desde la primera visita.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <p class="benefit-num">01</p>
+            <div>
+              <h4>Tecnología que resuelve</h4>
+              <p>Equipo electrónico para detectar fallas con precisión y evitar trabajos innecesarios.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <p class="benefit-num">02</p>
+            <div>
+              <h4>Urgencias 24 horas</h4>
+              <p>Atención disponible para trabajos urgentes cuando una fuga o drenaje no puede esperar.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <p class="benefit-num">03</p>
+            <div>
+              <h4>Trabajo garantizado</h4>
+              <p>Calidad 100% garantizada, ejecución profesional y comunicación directa durante el servicio.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <p class="benefit-num">04</p>
+            <div>
+              <h4>Hogar, comercio e industria</h4>
+              <p>Soluciones para instalaciones residenciales, locales comerciales y sistemas de mayor demanda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="numbers">
+  <div class="numbers-bg" aria-hidden="true"></div>
+  <div class="numbers-ov" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Cómo funciona</p>
+      <h2 class="heading heading--white heading--shine-dark">Agenda tu Servicio en 3 Pasos</h2>
+    </div>
+    <div class="numbers-grid numbers-grid--three">
+      <div class="number-item rev d1">
+        <p class="num-v">Paso 01</p>
+        <p class="num-l">Escríbenos por WhatsApp y cuéntanos qué falla necesitas resolver.</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">Paso 02</p>
+        <p class="num-l">Revisamos el caso y coordinamos la atención a domicilio.</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">Paso 03</p>
+        <p class="num-l">Realizamos el servicio con trabajo profesional y garantía.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Galería</p>
+      <h2 class="heading heading--white heading--shine-dark">Trabajos Reales, Sin Foto Genérica</h2>
+      <p class="brands-sub">Una muestra del tipo de servicios que A Jiménez e Hijos atiende en campo.</p>
+    </div>
+    <div class="brands-grid">
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/photos/calentador-solar.webp" alt="Calentador solar instalado por A Jiménez e Hijos" loading="lazy"></div>
+        <figcaption>Instalación de calentador solar.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/photos/bomba-presurizadora.webp" alt="Bomba de agua instalada con tanque presurizador" loading="lazy"></div>
+        <figcaption>Bomba de agua y presurización.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/photos/renovacion-tina.webp" alt="Tina en proceso de renovación de baño" loading="lazy"></div>
+        <figcaption>Renovación de tina y baño.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/photos/destape-fregadero.webp" alt="Fregadero atendido por destape y limpieza" loading="lazy"></div>
+        <figcaption>Destape de fregadero.</figcaption>
+      </figure>
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/photos/muebles-bano.webp" alt="Muebles de baño, lavabos y WC para instalación" loading="lazy"></div>
+        <figcaption>Muebles de baño y lavabo.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/photos/tuberia-cobre-pvc.webp" alt="Tubería de cobre y PVC instalada en muro" loading="lazy"></div>
+        <figcaption>Tubería de cobre y PVC.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/photos/registro-limpieza.webp" alt="Registro intervenido para limpieza y desazolve" loading="lazy"></div>
+        <figcaption>Limpieza de registro.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/photos/regadera-terminada.webp" alt="Regadera terminada tras servicio de plomería" loading="lazy"></div>
+        <figcaption>Regadera terminada.</figcaption>
+      </figure>
+    </div>
+    <p class="brands-note rev">No se incluyeron imágenes con marca de agua, tomas borrosas ni fotos con anotaciones a mano visibles.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contacto</p>
+          <h2 class="heading heading--white">Cotiza por WhatsApp</h2>
+          <p class="sub sub--white" style="margin-bottom:32px">Completa el formulario y se abrirá WhatsApp con tu mensaje listo para enviar. Sin correos, sin esperas dentro de la página.</p>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">☎</div>
+            <div>
+              <p class="c-label">Teléfono / WhatsApp</p>
+              <p class="c-value"><a href="tel:+525541935978">55 4193 5978</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">24</div>
+            <div>
+              <p class="c-label">Disponibilidad</p>
+              <p class="c-value">Trabajos urgentes las 24 horas del día</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">⌂</div>
+            <div>
+              <p class="c-label">Servicio</p>
+              <p class="c-value">Atención a domicilio para hogar, comercio e industria</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">✓</div>
+            <div>
+              <p class="c-label">Coordinación</p>
+              <p class="c-value">La visita se agenda directamente por WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar Servicio</h3>
+          <p class="form-sub">Te dejamos el mensaje armado para enviarlo directamente al WhatsApp oficial.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Tu nombre" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="55 0000 0000" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Servicio que necesitas *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Plomería en general">Plomería en general</option>
+                <option value="Desazolve o destape">Desazolve o destape</option>
+                <option value="Limpieza de registro con equipo electrónico">Limpieza de registro con equipo electrónico</option>
+                <option value="Bomba de agua">Bomba de agua</option>
+                <option value="Calentador solar">Calentador solar</option>
+                <option value="Tubería de cobre o PVC">Tubería de cobre o PVC</option>
+                <option value="Muebles de baño">Muebles de baño</option>
+                <option value="Renovación de baño o tina">Renovación de baño o tina</option>
+                <option value="Reparación de fuga">Reparación de fuga</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Cuéntanos qué pasa</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="3" placeholder="Ej. fuga en muro, drenaje tapado, instalar bomba, renovar baño..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-card rev" aria-label="Información de ubicación">
+      <div class="map-placeholder">
+        <canvas id="pcanvasContact" class="particle-canvas" aria-hidden="true"></canvas>
+        <p class="map-kicker">Coordinación directa</p>
+        <h3>Servicio a domicilio</h3>
+        <p>Para coordinar una visita o atención urgente, usa el WhatsApp oficial: <a href="https://wa.me/525541935978" target="_blank" rel="noopener noreferrer">55 4193 5978</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="assets/logo-plomero-alpha.png" alt="A Jiménez e Hijos" class="foot-logo-img">
+          <div class="logo-word">A Jiménez <em>e Hijos</em></div>
+        </div>
+        <p class="foot-desc">Plomería y desazolve profesional con atención personalizada, trabajos urgentes 24 horas y calidad 100% garantizada.</p>
+        <div class="foot-social">
+          <a href="https://wa.me/525541935978" target="_blank" rel="noopener noreferrer" aria-label="A Jiménez e Hijos en WhatsApp" class="foot-social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.79h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="foot-col-title">Servicios</p>
+        <ul class="foot-links">
+          <li><a href="#services">Desazolve</a></li>
+          <li><a href="#services">Fugas</a></li>
+          <li><a href="#services">Bombas de agua</a></li>
+          <li><a href="#services">Calentadores solares</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Trabajos</p>
+        <ul class="foot-links">
+          <li><a href="#inventario">Instalación de WC</a></li>
+          <li><a href="#inventario">Tubería de drenaje</a></li>
+          <li><a href="#galeria">Galería real</a></li>
+          <li><a href="#why">Garantía</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:+525541935978">55 4193 5978</a></li>
+          <li><a href="https://wa.me/525541935978" target="_blank" rel="noopener noreferrer">WhatsApp directo</a></li>
+          <li><a href="#contact">Solicitar servicio</a></li>
+          <li><a href="#hero">Volver arriba</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>A Jiménez e Hijos</span>. Todos los derechos reservados.</p>
+      <p>Plomería y Desazolve</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Llamar ahora</span>
+    <a href="tel:+525541935978" class="fab-btn call-btn" aria-label="Llamar a A Jiménez e Hijos">
+      <svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.27z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="fab-item">
+    <span class="fab-tip">Escríbenos por WhatsApp</span>
+    <a href="https://wa.me/525541935978?text=Hola%2C%20necesito%20un%20servicio%20de%20plomer%C3%ADa%20o%20desazolve." target="_blank" rel="noopener noreferrer" class="fab-btn wa-btn" aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
